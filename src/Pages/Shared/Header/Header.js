@@ -19,17 +19,16 @@ const Header = () => {
                             <Nav.Link as={HashLink} to="/aboutus">ABOUT US</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#services">SERVICES</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#doctors">DOCTORS</Nav.Link>
-                            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                            <Nav.Link as={HashLink} to="/contact">CONTACT</Nav.Link>
+                            <NavDropdown title="Gallery" id="collasible-nav-dropdown">
+                                <NavDropdown.Item as={HashLink} to="/doctorg">Doctors</NavDropdown.Item>
+                                <NavDropdown.Item as={HashLink} to="/servicesg">Medicadle Equipment</NavDropdown.Item>
+
                             </NavDropdown>
                         </Nav>
                         <Nav>
                             {user?.email ?
-                                <Button onClick={logOut} variant="light">Logout</Button> :
+                                <Button className='btn btn-primary bg-danger' onClick={logOut} variant="light">Logout</Button> :
                                 <Nav.Link as={Link} to="/login">Login</Nav.Link>}
                             <Navbar.Text>
                                 <a href="#login" className='mx-2 my-5'>{user?.displayName}</a>

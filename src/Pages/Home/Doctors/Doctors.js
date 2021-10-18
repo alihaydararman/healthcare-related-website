@@ -38,7 +38,7 @@ const doctors = [
     {
         img: doctor6,
         name: 'Dr. Arfat khan',
-        expertize: '-Alrounder Expert-'
+        expertize: 'Dental Specialist'
     },
     {
         img: doctor7,
@@ -50,7 +50,7 @@ const doctors = [
 const Doctors = () => {
     return (
         <div id="doctors" className="container">
-            <h2 className="text-primary mt-5">Our Doctors</h2>
+            <h2 className="text-primary mt-5 bg-dark">Our Doctors</h2>
             <div className="row">
                 {
                     doctors.map(doctor => <Doctor

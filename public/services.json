@@ -1,44 +1,65 @@
 [
     {
         "id": 1,
-        "name": "ENGINE DIAGNOSTIC",
-        "price": "300",
+        "name": "Diagnose & Research",
+        "price": "2000",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+        "img": "https://i.ibb.co/JjrJkN8/General-practitioner-and-young-nurse-wearing-surgical-face-mask-against-covid-19-while-having-a-disc.jpg"
     },
     {
         "id": 2,
-        "name": "WHEEL ALIGNMENT",
+        "name": "Dental Surgery",
         "price": "100",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/tY8dmnP/2.jpg"
+        "img": "https://i.ibb.co/KGDH5xB/5.jpg"
     },
     {
         "id": 3,
-        "name": "OIL CHANGING",
+        "name": "Diagnose & Research",
         "price": "150",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+        "img": "https://i.ibb.co/7SyJyZd/6.jpg"
     },
     {
         "id": 4,
-        "name": "BRAKE REPARING",
+        "name": "Drug / Medicine",
         "price": "180",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
+        "img": "https://i.ibb.co/dWTwhWm/7.jpg"
     },
     {
         "id": 5,
-        "name": "WASH AND GLASSING",
+        "name": "Endocrinology",
         "price": "100",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/FgQ3jXp/5.jpg"
+        "img": "https://i.ibb.co/vsfLKrn/1.jpg"
     },
     {
         "id": 6,
-        "name": "COMPLETE ANALYSIS",
+        "name": "Pregnancy & Births",
         "price": "300",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": "https://i.ibb.co/zJy5ZDd/6.jpg"
+        "img": "https://i.ibb.co/7SyJyZd/6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Craseb libero",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/JKC6Bx8/8.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Craety aweturna",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/sqVJxKh/10.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Lobortis euismod",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/pdkK7Gw/9.jpg"
     }
 ]
