@@ -6,7 +6,7 @@ import banner3 from '../../../images/banner/banner-3.png';
 
 const Slider = () => {
     return (
-        <div className='my-4 mt-5'>
+        <div id='slider' className='my-5'>
             <div id="carouselExampleIndicators" className="carousel slide container" data-bs-ride="carousel">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>

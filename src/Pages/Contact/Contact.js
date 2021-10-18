@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div>
 
-            <div className="container px-1 py-5 mx-auto">
+            <div id='contact' className="container px-1 py-5 mx-auto">
                 <div className="row d-flex justify-content-center">
                     <div className="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
                         <h1>HAYDAR MEDICAL CENTER</h1>

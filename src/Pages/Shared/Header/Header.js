@@ -6,12 +6,12 @@ import useAuth from '../../../Hooks/useAuth';
 
 const Header = () => {
     const { user, logOut } = useAuth();
-    console.log(user)
+
     return (
-        <div className='mb-5'>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
+        <div style={{ marginBottom: "100px" }}>
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed='top'  >
                 <Container>
-                    <Navbar.Brand as={HashLink} to="/home">Haydar Medical Center
+                    <Navbar.Brand as={HashLink} to="/home" >Haydar Medical Center
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
@@ -19,8 +19,8 @@ const Header = () => {
                             <Nav.Link as={HashLink} to="/aboutus">ABOUT US</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#services">SERVICES</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#doctors">DOCTORS</Nav.Link>
-                            <Nav.Link as={HashLink} to="/contact">CONTACT</Nav.Link>
-                            <NavDropdown title="Gallery" id="collasible-nav-dropdown">
+                            <Nav.Link as={HashLink} to="contact#contact">CONTACT</Nav.Link>
+                            <NavDropdown title="GALLERY" id="collasible-nav-dropdown">
                                 <NavDropdown.Item as={HashLink} to="/doctorg">Doctors</NavDropdown.Item>
                                 <NavDropdown.Item as={HashLink} to="/servicesg">Medicadle Equipment</NavDropdown.Item>
 
