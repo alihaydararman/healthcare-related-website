@@ -14,7 +14,7 @@ const useFirebase = () => {
         const googleProvider = new GoogleAuthProvider();
 
         return signInWithPopup(auth, googleProvider)
-            .finally(() => setIsLoading(false));
+
 
     }
 
@@ -25,7 +25,7 @@ const useFirebase = () => {
 
         return signInWithPopup(auth, githubProvider)
 
-            .finally(() => setIsLoading(false));
+
     }
 
     // observe user state change
@@ -47,7 +47,7 @@ const useFirebase = () => {
     const logOut = () => {
         setIsLoading(true);
         signOut(auth)
-            .then(() => { })
+            .then(() => setUser({}))
             .finally(() => setIsLoading(false));
     }
     return {
@@ -55,7 +55,8 @@ const useFirebase = () => {
         isLoading,
         signInUsingGoogle,
         signInUsingGithub,
-        logOut
+        logOut,
+        setIsLoading
     }
 }
 

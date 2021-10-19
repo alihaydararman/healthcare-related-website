@@ -3,7 +3,7 @@ import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
 
 const Login = () => {
-    const { signInUsingGoogle, signInUsingGithub } = useAuth();
+    const { signInUsingGoogle, signInUsingGithub, setIsLoading } = useAuth();
     const location = useLocation();
     const histry = useHistory()
     const redirect_uri = location.state?.from || '/home';
@@ -12,6 +12,7 @@ const Login = () => {
             .then(result => {
                 histry.push(redirect_uri)
             })
+            .finally(() => setIsLoading(false));
 
     }
     const handleGitHubLogin = () => {
@@ -19,6 +20,7 @@ const Login = () => {
             .then(result => {
                 histry.push(redirect_uri)
             })
+            .finally(() => setIsLoading(false));
 
     }
     return (
