@@ -13,11 +13,9 @@ const useFirebase = () => {
         setIsLoading(true);
         const googleProvider = new GoogleAuthProvider();
 
-        signInWithPopup(auth, googleProvider)
-            .then(result => {
-                setUser(result.user);
-            })
+        return signInWithPopup(auth, googleProvider)
             .finally(() => setIsLoading(false));
+
     }
 
     //github sing in function
@@ -25,10 +23,8 @@ const useFirebase = () => {
         setIsLoading(true);
         const githubProvider = new GithubAuthProvider();
 
-        signInWithPopup(auth, githubProvider)
-            .then(result => {
-                setUser(result.user);
-            })
+        return signInWithPopup(auth, githubProvider)
+
             .finally(() => setIsLoading(false));
     }
 
